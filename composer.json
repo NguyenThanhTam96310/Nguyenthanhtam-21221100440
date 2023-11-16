@@ -1,0 +1,23 @@
+{
+    "name": "nguyenthanhtam/shop-thoi-trang",
+    "description": "Xây dựng website bán hàng - Năm học 2023-2024",
+    "authors": [
+        {
+            "name": "Nguyễn Thành Tâm",
+            "email": "nguyenthanhtam96310@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.28",
+        "illuminate/events": "^10.28"
+    }
+}
